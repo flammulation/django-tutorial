@@ -1,0 +1,34 @@
+# Django project specific files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Ignore the virtual environment
+venv/
+env/
+
+# Ignore any local development settings
+local_settings.py
+
+# Ignore logs and static files
+logs/
+staticfiles/
+
+# Ignore database migrations
+*/migrations/
+
+# Ignore any environment-specific files
+.env
+
+# Ignore IDE-specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
